@@ -30,6 +30,7 @@
 <node CREATED="1498053323713" ID="ID_251299354" MODIFIED="1498053325786" TEXT="filter"/>
 <node CREATED="1498053325983" ID="ID_101394466" MODIFIED="1498053328253" TEXT="fold"/>
 </node>
+<node CREATED="1498055355913" ID="ID_1583824261" MODIFIED="1498055360603" TEXT="composition de fonctions"/>
 </node>
 <node CREATED="1498045053290" ID="ID_901750489" MODIFIED="1498047790889" POSITION="right" TEXT="Haskell">
 <font NAME="SansSerif" SIZE="12"/>
@@ -51,7 +52,7 @@
 </node>
 <node CREATED="1498046858817" ID="ID_1286184118" MODIFIED="1498047790891" POSITION="left" TEXT="refs">
 <node CREATED="1498046862635" ID="ID_1522136070" LINK="https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536" MODIFIED="1498047790891" TEXT="https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536"/>
+<node CREATED="1498050314657" ID="ID_610976504" LINK="https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db" MODIFIED="1498058157536" TEXT="https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db"/>
 </node>
-<node CREATED="1498050314657" ID="ID_610976504" LINK="https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db" MODIFIED="1498050323849" POSITION="left" TEXT="https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db"/>
 </node>
 </map>
