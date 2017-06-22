@@ -1,40 +1,68 @@
-% Programmation fonctionnelle
-% Yves Dubromelle
-% \today
+---
+title: "Programmation fonctionnelle"
+author: Yves Dubromelle
+date: \today
+institute: Capgemini
+---
 
-# Définition
+# Généralités
 
-# impératif vs fonctionnel
+## Définition
 
-# oubliez tout
+"La programmation fonctionnelle est un paradigme de programmation de type déclaratif qui considère le calcul en tant qu'évaluation de fonctions mathématiques." @Wikipedia
 
-   * exemple du changement de voiture puis vaisseau spacial
+## Oubliez tout
 
-# fonction pure
+1. apprendre à conduite une voiture : difficile
+1. changer de voiture : facile
+1. apprendre à conduire un X-Wing : difficile
 
-   * même résultat pour les mêmes fonctions d'entrée
-   * pas de changements d'éléments externes
-   * pas d'effets de bord
-   * possibilité de garder des résultats en cache
-   * exemples impurs :
+# Principes
 
-      * writeFile(fileName);
-      * updateDatabaseTable(sqlCmd);
-      * sendAjaxRequest(ajaxRequest);
-      * openSocket(ipAddress);
+## Fonction pure
 
-# immutabilité
+* même résultat pour les mêmes fonctions d'entrée
+* pas de changements d'éléments externes
+* pas d'effets de bord
+* possibilité de garder des résultats en cache
 
-   * x = x + 1 illégal en maths
+## Code Java typique avec effets de bord :
 
-# “WHAT NO VARIABLES AND NOW NO LOOPS?! I HATE YOU!!!”
+*
+~~~java
+writeFile(fileName);
+~~~
+*
+~~~java
+updateDatabaseTable(sqlCmd);
+~~~
+*
+~~~java
+sendAjaxRequest(ajaxRequest);
+~~~
+*
+~~~java
+openSocket(ipAddress);
+~~~
+*
+~~~java
+void setToto(String toto) {
+    this.toto = toto;;
+}
+~~~
 
-# lambda calcul
+## immutabilité
 
-# fonctions courantes
+* x = x + 1 illégal en maths
+* conséquence -> pas de variables
+* “WHAT NO VARIABLES AND NOW NO LOOPS?! I HATE YOU!!!”
 
-   * map
-   * filter
-   * fold
+## lambda calcul
 
-# composition de fonctions
+## fonctions courantes
+
+* map
+* filter
+* fold
+
+## composition de fonctions
