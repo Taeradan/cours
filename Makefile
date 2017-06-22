@@ -1,2 +1,2 @@
 all:
-	pandoc -t beamer -o fonctionnel/slides.pdf fonctionnel/slides.md
+	pandoc -t beamer -V theme:metropolis -o fonctionnel/slides.pdf fonctionnel/slides.md
