@@ -47,7 +47,7 @@ openSocket(ipAddress);
 *
 ~~~java
 void setToto(String toto) {
-    this.toto = toto;;
+    this.toto = toto;
 }
 ~~~
 
